@@ -1,5 +1,5 @@
 .DS_Store
-tools/cv2_morphing/captcha_sites.json
+tools/morphing/captcha_sites.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
