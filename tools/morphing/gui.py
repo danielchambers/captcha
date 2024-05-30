@@ -145,7 +145,7 @@ class MainWindow(QMainWindow):
         print(f"gaussian = cv2.GaussianBlur(original_image, ({self.gaussian_blur_ksize}, {self.gaussian_blur_ksize}), 0)")
         print(f"_, thresholded = cv2.threshold(gaussian, {self.threshold_value}, 255, cv2.THRESH_BINARY_INV)")
         print(f"kernel = np.ones(({self.erosion_kernel_x}, {self.erosion_kernel_y}), np.uint8)")
-        print(f"eroded = cv2.erode(thresholded, kernel, iterations={self.erosion_iterations})", self.erosion_kernel_y)
+        print(f"eroded = cv2.erode(thresholded, kernel, iterations={self.erosion_iterations})")
         print(f"kernel = np.ones(({self.dilation_kernel_x}, {self.dilation_kernel_y}), np.uint8)")
         print(f"dilated = cv2.dilate(eroded, kernel, iterations={self.dilation_iterations})")
         print(f"kernel = np.ones(({self.morph_open_kernel}, {self.morph_open_kernel}), np.uint8)")
