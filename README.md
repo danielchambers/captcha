@@ -1,4 +1,4 @@
-# text-captcha-solver
+# simple-text-solver
 
 
 ## Tools
