@@ -2,6 +2,14 @@
 
 
 ## Tools
+### Evaluate & Training
+
+Utilizing Keras library to train and evaluate a deep learning model. The train.py script handles the model training process, while the evaluate.py script is used to assess the trained model's performance on a separate test dataset.
+
+https://github.com/danielchambers/captcha/assets/10182848/4aec683a-29ee-4ce5-8f41-d20f28b1af19
+
+
+
 ### Morphological Operations
 
 The Morphological Operations GUI is a user-friendly interface that simplifies the process of applying various morphological operations to images using the OpenCV library. It offers an intuitive way to experiment with different operations and their parameters, providing a real-time preview of the resulting image. 
