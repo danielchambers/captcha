@@ -2,3 +2,7 @@ opencv-python
 numpy
 requests
 PyQt5
+Pillow
+scikit-learn
+tensorflow
+matplotlib

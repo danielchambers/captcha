@@ -1,5 +1,10 @@
 .DS_Store
 tools/morphing/captcha_sites.json
+tools/ml/captchas/
+tools/ml/dataset/
+tools/ml/models/
+tools/ml/plots/
+blizzard/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
